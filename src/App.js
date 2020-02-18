@@ -7,6 +7,8 @@ function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
 const [homeScore, setHomeScore] = useState(0);
 const [awayScore, setAwayScore] = useState(0);
+
+
   return (
     <div className="container">
       <section className="scoreboard">
@@ -18,7 +20,7 @@ const [awayScore, setAwayScore] = useState(0);
 
             <div className="home__score">{homeScore}</div>
           </div>
-          <div className="timer">00:05</div>
+          <div className="timer">05:00</div>
           <div className="away">
             <h2 className="away__name">Pack</h2>
             <div className="away__score">{awayScore}</div>
